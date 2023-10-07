@@ -1,0 +1,854 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/hero-bg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header1 .black {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.584);
+}
+.header1 .black .nav1 {
+  width: 100%;
+  /* box-shadow: 0 0 10px black; */
+}
+.header1 .black .nav1 ul {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.header1 .black .nav1 ul li {
+  padding: 1px 1px;
+  list-style: none;
+  margin: 12px;
+}
+.header1 .black .nav1 ul li:first-child {
+  margin-right: 170px;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.header1 .black .hr {
+  width: 100%;
+  height: 0px;
+  border: 0.5px solid #ffffff16;
+}
+.header1 .black .nav1 ul button {
+  margin-left: 150px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #009961;
+  border: 2px solid #009961;
+}
+.header1 .black .mini-header .text {
+  text-align: center;
+  margin-top: 28vh;
+}
+.header1 .black .mini-header .text h1 {
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+}
+.header1 .black .mini-header .text p {
+  font-size: 25px;
+  margin-top: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+.header1 .mini-header a {
+  width: 94px;
+  height: 94px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: radial-gradient(#009961 50%, rgba(0, 153, 97, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.header1 .mini-header a i {
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.section1 {
+  width: 180vh;
+  margin-left: 90px;
+  margin-top: 50px;
+  display: flex;
+}
+.section1 .text2 .text01 h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+.section1 .text2 .text01 .green {
+  width: 60px;
+  height: 3px;
+  border: 3px solid #009961;
+  margin-top: 15px;
+}
+.section1 .text2 .text01 .p1 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+.section1 .text2 .mu {
+  display: flex;
+  justify-content: space-around;
+}
+.section1 .text2 .mu .mini-text {
+  width: 90vh;
+  margin-top: 40px;
+}
+.section1 .text2 .mu .mini-text .p2 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.section1 .text2 .mu .mini-text .p0 {
+  display: flex;
+  font-size: 17px;
+  gap: 10px;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.section1 .text2 .mu .text3 {
+  width: 80vh;
+  margin-top: 40px;
+}
+.section1 .text2 .mu .text3 .p3 {
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  font-family: "Open Sans", sans-serif;
+}
+.section1 .text2 .mu .text3 .btn2 {
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  background: transparent;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 3px solid #009961;
+  color: #009961;
+}
+.section1 .text2 .mu .text3 .btn2:hover {
+  background-color: #009961;
+  color: #fff;
+  transition: 0.4s;
+}
+.section2 {
+  width: 180vh;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.section2 .text h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+.section2 .text .green {
+  width: 60px;
+  height: 3px;
+  border: 3px solid #009961;
+  margin-top: 15px;
+}
+.section2 .text p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.section2 .cards {
+  width: 180vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.section2 .cards .card {
+  width: 50vh;
+  height: 35vh;
+  margin: 20px;
+  border-radius: 18px;
+  box-shadow: 0 0 10px gray;
+}
+.section2 .cards .card:hover {
+  border-bottom: 8px solid #009961;
+  transition: 0.5s;
+}
+/* .section2 .cards .card:hover i {
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.section2 .cards .card:hover h1 {
+  transition: 0.5s;
+  margin-top: 1px;
+}
+.section2 .cards .card:hover p {
+  transition: 0.5s;
+  margin-top: 1px;
+} */
+.section2 .cards .card i {
+  margin: 30px;
+  padding: 25px 25px;
+  border-radius: 100%;
+  font-size: 30px;
+  background-color: #009961;
+  color: #fff;
+  position: absolute;
+  margin-top: 40px;
+}
+.section2 .cards .card h1 {
+  position: absolute;
+  margin: 25px;
+  margin-top: 135px;
+  margin-left: 25px;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.section2 .cards .card p {
+  color: rgb(56, 56, 56);
+  margin: 25px;
+  margin-top: 175px;
+  margin-left: 25px;
+  width: 85%;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.section3 {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  background-image: url(./images/cta-bg.jpg);
+  background-attachment: fixed;
+}
+.section3 .world {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.653);
+}
+.section3 .world h1 {
+  position: absolute;
+  margin: 50px;
+  margin-top: 140px;
+  margin-left: 58px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+.section3 .world .text {
+  position: absolute;
+  display: flex;
+  margin: 60px;
+  margin-top: 200px;
+}
+.section3 .world .text p {
+  width: 70%;
+  font-size: 19px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.section3 .world .text button {
+  border-radius: 25px;
+  background-color: #009961;
+  color: #fff;
+  font-size: 17px;
+  border: 2px solid #009961;
+  width: 180px;
+  height: 45px;
+  margin-left: 100px;
+}
+.section4 .texts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.section4 .texts .display .text i {
+  margin-left: 50px;
+  font-size: 50px;
+  color: #009961;
+}
+.section4 .texts .display .text {
+  display: flex;
+  margin-top: 30px;
+}
+.section4 .texts .display .text .text2 {
+  margin-left: 25px;
+  margin-top: 8px;
+}
+.section4 .texts .display .text .text2 h1 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.section4 .texts .display .text .text2 p {
+  font-size: 17px;
+  width: 80vh;
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(60, 60, 60);
+}
+.section4 .texts .img img {
+  width: 680px;
+  height: 430px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.section5 .boxs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+.section5 .boxs .box {
+  width: 330px;
+  height: 180px;
+  border: 0.5px solid gray;
+}
+.section5 .boxs .box img {
+  width: 200px;
+  height: 80px;
+  margin: 50px;
+  /* position: absolute; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.section6 {
+  width: 100%;
+  height: 350px;
+  margin-top: 50px;
+  background-image: url(./images/counts-bg.jpg);
+  background-attachment: fixed;
+}
+.section6 .carusel {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+/* ========================================================== */
+.section6 .carusel .text {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.section6 .carusel .text h1 {
+  font-size: 35px;
+}
+.section6 .carusel .text p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* ========================================================== */
+.section6 .carusel .nums {
+  display: flex;
+  margin-top: 55px;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+}
+.section6 .carusel .nums .num .number {
+  color: #009961;
+  font-weight: 600;
+  font-size: 50px;
+}
+.section6 .carusel .nums .num {
+  width: 80px;
+}
+.section6 .carusel .nums .num .par {
+  text-align: center;
+  margin-top: 5px;
+}
+.section6 .carusel .nums .num2 .number2 {
+  color: #009961;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+.section6 .carusel .nums .num2 {
+  width: 130px;
+}
+.section6 .carusel .nums .num2 .par2 {
+  text-align: center;
+  margin-top: 5px;
+}
+.section7 {
+  width: 180vh;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.section7 .port .text h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+.section7 .port .text .green {
+  width: 60px;
+  height: 3px;
+  border: 3px solid #009961;
+  margin-top: 15px;
+}
+.section7 .port .text p {
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.section7 .our .btns {
+  margin-top: 40px;
+  text-align: center;
+}
+.section7 .our .btns button {
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+}
+.section7 .our .btns button:hover {
+  border: 1px solid #009961;
+  background-color: #009961;
+  color: #fff;
+  transition: 0.5s;
+}
+.section7 .our .cards {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  gap: 40px;
+}
+.section7 .our .cards .card1 {
+  width: 350px;
+  height: 370px;
+}
+.section7 .our .cards .card2 {
+  width: 350px;
+  height: 250px;
+}
+.section7 .our .cards .card3 {
+  width: 350px;
+  height: 200px;
+}
+.section7 .our .cards .card4 {
+  width: 350px;
+  height: 470px;
+}
+.section7 .our .cards .card5 {
+  width: 350px;
+  height: 440px;
+  margin-top: -120px;
+}
+.section7 .our .cards .card6 {
+  width: 350px;
+  height: 200px;
+  margin-top: -170px;
+}
+.section7 .our .cards .card7 {
+  width: 350px;
+  height: 200px;
+  margin-top: -440px;
+  margin-left: 780px;
+}
+.section7 .our .cards .card8 {
+  width: 350px;
+  height: 200px;
+  margin-top: -240px;
+  margin-left: 780px;
+}
+.section7 .our .cards .card9 {
+  width: 350px;
+  height: 200px;
+  margin-top: -230px;
+  margin-left: 390px;
+}
+.section7 .our .cards img {
+  width: 100%;
+  height: 100%;
+}
+.section8 {
+  width: 180vh;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.section8 .ours .text h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+.section8 .ours .text .green {
+  width: 60px;
+  height: 3px;
+  border: 3px solid #009961;
+  margin-top: 15px;
+}
+.section8 .ours .text p {
+  font-size: 17px;
+  margin-top: 20px;
+  color: rgb(80, 80, 80);
+  font-family: "Open Sans", sans-serif;
+}
+.section8 .ours .cards {
+  margin-top: 50px;
+  width: 175vh;
+  display: flex;
+  justify-content: space-around;
+}
+.section8 .ours .cards .card {
+  width: 400px;
+  height: 520px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.section8 .ours .cards .card .num h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.section8 .ours .cards .card .num {
+  margin-top: 90px;
+}
+.section8 .ours .cards .card .num .p1 {
+  text-align: center;
+  color: #009961;
+  font-size: 45px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.section8 .ours .cards .card .num .p1 span {
+  font-size: 17px;
+  color: #ccc;
+}
+.section8 .ours .cards .card .texts {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 17px;
+  text-align: center;
+}
+.section8 .ours .cards .card .texts p {
+  font-size: 18px;
+  padding: 10px;
+}
+.section8 .ours .cards .card .texts del {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  padding: 8px;
+  color: #ccc;
+}
+.section8 .ours .cards .card .texts button {
+  width: 145px;
+  height: 45px;
+  font-size: 15px;
+  margin-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  border: 3px solid #009961;
+  color: #009961;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.section8 .ours .cards .card .texts button:hover {
+  background-color: #009961;
+  transition: 0.2s;
+  color: #fff;
+}
+.section8 .ours .cards .card .num0 h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.section8 .ours .cards .card .num0 {
+  margin-top: 90px;
+}
+.section8 .ours .cards .card .div {
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+.section8 .ours .cards .card .num0 .p1 {
+  text-align: center;
+  color: #009961;
+  font-size: 45px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.section8 .ours .cards .card .num0 .p1 span {
+  font-size: 17px;
+  color: #ccc;
+}
+.section8 .ours .cards .card .texts0 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 17px;
+  text-align: center;
+}
+.section8 .ours .cards .card .texts0 p {
+  font-size: 18px;
+  padding: 10px;
+}
+.section8 .ours .cards .card .texts0 del {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  padding: 15px;
+  color: #ccc;
+}
+.section8 .ours .cards .card .texts0 button {
+  width: 145px;
+  height: 45px;
+  font-size: 15px;
+  margin-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  border: 3px solid #009961;
+  color: #fff;
+  background-color: #009961;
+  border-radius: 25px;
+}
+.section8 .ours .cards .card .texts0 button:hover {
+  background-color: #35d298;
+  border: 3px solid #35d298;
+  transition: 0.2s;
+  color: #fff;
+}
+.section9 .flex .texts .text {
+  width: 90vh;
+  font-family: "Open Sans", sans-serif;
+}
+.section9 .flex .texts .text h1 {
+  font-size: 30px;
+}
+.section9 .flex .texts .text p {
+  margin-top: 10px;
+  font-size: 16.5px;
+  color: rgb(65, 65, 65);
+}
+.section9 {
+  margin-top: 70px;
+  margin-left: 90px;
+  font-family: "Open Sans", sans-serif;
+}
+.section9 .flex {
+  display: flex;
+  justify-content: space-around;
+}
+.section9 .flex .texts .text h1 strong {
+  font-weight: 900;
+}
+.section9 .flex .texts .text p {
+  margin-top: 10px;
+}
+.section9 .flex .texts .cuen {
+  width: 590px;
+  height: 60px;
+  margin-top: 50px;
+  border: 2px solid black;
+  z-index: auto;
+}
+.section9 .flex .texts .cuen .card {
+  margin-top: 5px;
+}
+.section9 .flex .texts .cuen .card h1 {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.section9 .flex .texts .cuen .card h1 i {
+  margin-left: 70px;
+  font-size: 25px;
+}
+.section9 .flex .texts .cuen .card h1 #block{
+  position: absolute;
+  margin-left: -25px;
+  font-size: 25px;
+  display: none;
+}
+.section9 .flex .texts .cuen .card p {
+  display: none;
+  margin-top: 13px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+/* .section9 .flex .texts .cuen:hover{
+  height: 120px;
+  transition: 0.8s;
+}
+.section9 .flex .texts .cuen .card:hover p {
+  display: block;
+  transition: 100s;
+  z-index: inherit;
+} */
+.section9 .flex .img{
+  width: 650px;
+  height: 500px;
+}
+.section9 .flex .img img{
+  width: 100%;
+  height: 100%;
+}
+
+.section10 .sss .text {
+  width: 180vh;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.section10 .sss .text h1 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+.section10 .sss .text .green {
+  width: 60px;
+  height: 3px;
+  border: 3px solid #009961;
+  margin-top: 15px;
+}
+.section10 .sss .text p {
+  font-size: 17px;
+  margin-top: 20px;
+  color: rgb(80, 80, 80);
+  font-family: "Open Sans", sans-serif;
+}
+.section10 .sss .map {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  border: 1px solid bla2k;
+}
+.section11 {
+  margin-top: 50px;
+}
+.section11 .location {
+  display: flex;
+}
+.section11 .location .flex .adress {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.section11 .location .flex .adress i {
+  color: #009961;
+  font-size: 40px;
+  margin-top: 32px;
+  margin-left: 90px;
+}
+.section11 .location .flex .adress .text {
+  margin-left: 15px;
+}
+.section11 .location .flex .adress .text p {
+  margin-top: 10px;
+}
+.section11 .location .flex .adress .text h1 {
+  font-size: 30px;
+  margin-top: 35px;
+}
+.section11 .location .inputs {
+  width: 750px;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.section11 .location .inputs .name {
+  display: flex;
+  justify-content: space-between;
+}
+.section11 .location .inputs .name input {
+  width: 350px;
+  height: 45px;
+  font-size: 15px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.section11 .location .inputs .subject input {
+  width: 100%;
+  height: 45px;
+  margin-top: 30px;
+  font-size: 15px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.section11 .location .inputs .message textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  font-size: 15px;
+  padding: 20px;
+  padding-top: -200px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.section11 .location .inputs .btn {
+  margin-top: 30px;
+  text-align: center;
+}
+.section11 .location .inputs .btn button {
+  background: #009961;
+  border: 0;
+  font: 16px "Open Sans", sans-serif;
+  padding: 13px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.section11 .location .inputs .btn button:hover {
+  background-color: #2cdd9c;
+}
+.section12 {
+  margin-top: 50px;
+}
+.section12 .footer {
+  width: 100%;
+  height: 400px;
+  background: #0f0f0f;
+  color: #fff;
+  text-align: center;
+}
+.section12 .footer h1 {
+  font-size: 36px;
+  font-weight: 800;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.section12 .footer p {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.section12 .footer .icons {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  justify-content: center;
+  margin-top: 60px;
+}
+.section12 .footer .icons #ri{
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  font-size: 22px;
+  border-radius: 100%;
+  background-color: #009961;
+}
+.section12 .footer .copy {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 70px;
+}
+.section12 .footer .text {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.section12 .footer .text a {
+  color: #009961;
+  margin-left: 5px;
+}
